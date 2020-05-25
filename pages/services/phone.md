@@ -1,12 +1,12 @@
 ---
 layout: page
 show_meta: false
-title: "Getting Started"
-subheadline: "A Step-by-Step Guide"
-teaser: "This step-by-step guide helps you to customize Feeling Responsive to your needs."
+title: "Телефония"
+subheadline: "Информация о Телефония"
+teaser: "This Телефония helps you to customize Feeling Responsive to your needs."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
-permalink: "/getting-started/"
+   image_fullwidth: "camera3.jpg"
+permalink: "/services/phone/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

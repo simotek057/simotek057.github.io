@@ -1,12 +1,31 @@
 ---
 layout: page
-title: "Roadmap"
-subheadline: "ToDo-List &amp; Ideas"
-teaser: "Here are some ideas and features I want to implement in the future."
+title: "Галерея"
+subheadline: "Описание Галерея"
+teaser: "Это не все, что мы умеем...."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
-permalink: "/roadmap/"
+permalink: "/gallery/"
+gallery:
+    - image_url: camera1.jpg
+      caption: Sample image camera1.jpg
+    - image_url: camera2.jpg
+      caption: Sample image camera2.jpg
+    - image_url: camera3.jpg
+      caption: Sample image camera3.jpg
+    - image_url: camera4.jpg
+      caption: Sample image camera4.jpg
+    - image_url: camera5.jpg
+      caption: Sample image camera5.jpg
+    - image_url: termo/TERMO_CLIP.gif
+      caption: Термозавеса анимация
+    - image_url: svarka/svarka_complect2.jpg
+      caption: Сварочный комплект
+    - image_url: T-control_AVE1.jpg
+      caption: Устройство T-control
 ---
+
+{% include gallery %}
 
 ## Ideas and possible new features
 {: .t30 }
@@ -54,3 +73,8 @@ permalink: "/roadmap/"
 * [<s>Adding Open Graph for Jekyll</s>](https://gist.github.com/pathawks/1406355)
 * [<s>Gallery Post Example</s>]({{ site.url }}{{ site.baseurl }}/design/gallery/)
 * [<s>Adding pagination</s>](http://jekyllrb.com/docs/pagination/)
+
+
+
+<iframe onload="iFrameHeight(this)" id="blockrandom-99" name="" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2157.3213964906804!2d36.25135294317192!3d49.983198008361576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1544540472529&quot; width=&quot;1200&quot; height=&quot;600&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen&gt;" width="100%" height="200" scrolling="auto" frameborder="1" title="Карта" class="wrapper">
+Без IFRAME</iframe>

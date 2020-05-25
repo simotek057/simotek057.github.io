@@ -1,11 +1,10 @@
 ---
 layout: page-fullwidth
-title: "Theme Documentation"
-subheadline: "How to use Feeling Responsive"
-teaser: "The documentation is a work in progress..."
-permalink: "/documentation/"
+title: "Продукция"
+# teaser: "The documentation is a work in progress..."
+permalink: "/products/"
 header:
-   image_fullwidth: "header_roadmap_2.jpg"
+   image_fullwidth: "T-control_AVE1.jpg"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -21,6 +20,18 @@ header:
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
+
+## Новый заголовок
+subheadline: "СРОЧНО"
+Не упустите возможность купить у нас все! и сразу!
+image:
+    title: test.jpg
+    
+
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
+
+
+ [1]: {{ site.url }}{{ site.baseurl }}/documentation/
 
 ## Edit Navigation   {#edit-navigation}
 

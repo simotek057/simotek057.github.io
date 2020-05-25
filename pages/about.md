@@ -1,11 +1,10 @@
 ---
 layout: page
-show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "О компании"
+subheadline: "Описание О компании"
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/design/"
+   image_fullwidth: "camera3.jpg"
+permalink: "/about/"
 ---
 <ul>
     {% for post in site.categories.design %}
