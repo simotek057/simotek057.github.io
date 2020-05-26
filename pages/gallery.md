@@ -15,8 +15,8 @@ gallery:
       caption: Sample image camera3.jpg
     - image_url: camera4.jpg
       caption: Sample image camera4.jpg
-    - image_url: camera5.jpg
-      caption: Sample image camera5.jpg
+    - image_url: leakage/prospect4.jpg
+      caption: Контроль протечки
     - image_url: termo/TERMO_CLIP.gif
       caption: Термозавеса анимация
     - image_url: svarka/svarka_complect2.jpg
