@@ -13,8 +13,8 @@ gallery:
       caption: Sample image camera2.jpg
     - image_url: camera3.jpg
       caption: Sample image camera3.jpg
-    - image_url: leakage/maket.png
-      caption: Модуль конроля протечки
+    - image_url: leakage/maket.jpg
+      caption: Модуль контроля протечки
     - image_url: leakage/prospect4.jpg
       caption: Контроль протечки
     - image_url: termo/TERMO_CLIP.gif
