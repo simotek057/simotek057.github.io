@@ -2,10 +2,10 @@
 layout: page
 show_meta: false
 title: "Leakage Control"
-subheadline: "Информация о Leakage Control"
-teaser: "This Leakage Control helps you to customize Feeling Responsive to your needs."
+subheadline: "Информация о "Leakage Control""
+teaser: "Устройство "Leakage Control" - надежный защитник при прорывах водопроводных труб и затоплениях"
 header:
-   image_fullwidth: "camera3.jpg"
+   image_fullwidth: "leakage/maket.png"
 permalink: "/products/leakage-control/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
