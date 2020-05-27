@@ -2,8 +2,8 @@
 layout: page
 show_meta: false
 title: "Leakage Control"
-subheadline: "Информация о "Leakage Control""
-teaser: "Устройство "Leakage Control" - надежный защитник при прорывах водопроводных труб и затоплениях"
+subheadline: "Информация о 'Leakage Control'"
+teaser: "Устройство 'Leakage Control' - надежный защитник при прорывах водопроводных труб и затоплениях"
 header:
    image_fullwidth: "leakage/maket.png"
 permalink: "/products/leakage-control/"
