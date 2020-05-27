@@ -5,7 +5,7 @@ title: "Leakage Control"
 subheadline: "Информация о 'Leakage Control'"
 teaser: "Устройство 'Leakage Control' - надежный защитник при прорывах водопроводных труб и затоплениях"
 header:
-   image_fullwidth: "leakage/maket.png"
+   image_fullwidth: "leakage/maket.jpg"
 permalink: "/products/leakage-control/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
