@@ -16,8 +16,8 @@ permalink: "/products/t-control/"
 #1. Open `_data/network.yml` and customize links in the footer.
 #1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
 #1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
-1. file:///D:/FUTURE/%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D0%B7%D0%B0%D0%B2%D0%B5%D1%81%D0%B0/Frico_Ave_NEW.pdf
+
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
 
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+# [1]: {{ site.url }}{{ site.baseurl }}/documentation/
