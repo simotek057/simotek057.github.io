@@ -6,7 +6,7 @@ subheadline: "Совместимо с большинством типов тер
 teaser: "Доверьте управление "T-Control" - получите эффективное управление при
 ЭКОНОМИИ расходов на электроэнергию"
 header:
-   image_fullwidth: "termo/T-AVE_1"
+   image_fullwidth: "fire-and-water-1920x800.jpg"
 permalink: "/products/t-control.md/"
 ---
 #1. Open `_config.yml` and work it through, it's well documented
