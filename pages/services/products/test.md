@@ -42,8 +42,3 @@ gallery:
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/termo/frico_ave.pdf">Check out the documentation for all the tricks ›</a>
 
 [1]: {{ site.url }}/documentation/termo/frico_ave.pdf
-
-image:
-    title: gallery-example-1.jpg
-    caption: Unsplash.com
-    caption_url: http://unsplash.com
