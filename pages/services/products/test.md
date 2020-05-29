@@ -7,9 +7,10 @@ teaser: " Пробуем и надеемся"
 header:
    image_fullwidth: "fire-and-water-1920x800.jpg"
 permalink: "/products/test/"
-main:
-	image_fullwidth: "frico_ave.pdf"
-permalink: "/products/test/"
+
+gallery:
+    - image_url: camera1.jpg
+      caption: Sample image camera1.jpg
 ---
 1. Open `_config.yml` and work it through, it's well documented 
 1. Add your own `logo.png` to `/assets/img/`.
