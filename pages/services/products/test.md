@@ -1,12 +1,12 @@
 ---
 layout: page
 show_meta: false
-title: "Устройство автоматического управления термозавесой"
-subheadline: "Совместимо с большинством типов термозавес!!!"
-teaser: " T-Control - эффективное управление при ЭКОНОМИИ расходов"
+title: "TEST"
+subheadline: "Экспериментальная страница"
+teaser: " Пробуем и надеемся"
 header:
    image_fullwidth: "fire-and-water-1920x800.jpg"
-permalink: "/products/t-control/"
+permalink: "/products/test/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.
