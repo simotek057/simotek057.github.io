@@ -7,11 +7,14 @@ teaser: " Пробуем и надеемся"
 header:
    image_fullwidth: "fire-and-water-1920x800.jpg"
 permalink: "/products/test/"
-
 gallery:
-    - image_url: camera1.jpg
-      caption: Sample image camera1.jpg
+     - image_url: svarka/svarka_complect2.jpg
+      caption: Сварочный комплект
+    - image_url: T-control_AVE1.jpg
+      caption: Устройство T-control
 ---
+{% include gallery %}
+
 1. Open `_config.yml` and work it through, it's well documented 
 1. Add your own `logo.png` to `/assets/img/`.
 1. Open `_data/socialmedia.yml` and add your own social media links.
