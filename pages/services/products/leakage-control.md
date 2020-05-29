@@ -21,5 +21,9 @@ permalink: "/products/leakage-control/"
 
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
+image:
+    title: gallery-example-1.jpg
+    caption: Unsplash.com
+    caption_url: http://unsplash.com
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
