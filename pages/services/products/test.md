@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: page
 show_meta: false
 title: "TEST"
 subheadline: "Экспериментальная страница"
@@ -20,4 +20,4 @@ permalink: "/products/test/"
 
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/termo/frico_ave.pdf">Check out the documentation for all the tricks ›</a>
 
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+[1]: {{ site.url }}/documentation/termo/frico_ave.pdf
