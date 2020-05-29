@@ -18,7 +18,6 @@ permalink: "/products/t-control/"
 1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
 1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
 
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
-
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/termo/frico_ave.pdf">Check out the documentation for all the tricks ›</a>
 
 [1]: {{ site.url }}{{ site.baseurl }}/documentation/termo/frico_ave.pdf
