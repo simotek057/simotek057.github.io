@@ -21,5 +21,7 @@ permalink: "/products/test/"
 
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
+<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
+
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
