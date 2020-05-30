@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "Продукция"
-# teaser: "The documentation is a work in progress..."
+teaser: "The documentation is a work in progress..."
 permalink: "/products/"
 header:
    image_fullwidth: "T-control_AVE1.jpg"
