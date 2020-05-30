@@ -22,18 +22,3 @@ permalink: "/products/test/"
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
-
-### Code to use for flexible videos
-
-{% highlight html %}
-<div class="flex-video">
-  <iframe with video />
-</div>
-{% endhighlight %}
-
-
-<img class="t60" src="{{ site.urlimg }}
-{% endhighlight %}
-
-
-<img class="t60" src="{{ site.urlimg }}header-bus.jpg" alt="">
