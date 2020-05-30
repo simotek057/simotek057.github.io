@@ -32,4 +32,8 @@ permalink: "/products/test/"
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.urlimg }}frico_ave" alt="">
+<img class="t60" src="{{ site.urlimg }}
+{% endhighlight %}
+
+
+<img class="t60" src="{{ site.urlimg }}header-bus.jpg" alt="">
