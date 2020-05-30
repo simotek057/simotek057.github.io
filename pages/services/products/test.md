@@ -1,7 +1,8 @@
+---
 layout: page
 show_meta: false
 title: "Тест"
-permalink: "/products/test"
+permalink: "/products/test/"
 # Content
 #
 subheadline: "Пробная"
