@@ -22,7 +22,7 @@ permalink: "/products/test/"
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
- 
+
 ### Code to use for flexible videos
 
 {% highlight html %}
@@ -32,4 +32,4 @@ permalink: "/products/test/"
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
+<img class="t60" src="{{ site.urlimg }}frico_ave" alt="">
