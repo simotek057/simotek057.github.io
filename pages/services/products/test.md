@@ -3,7 +3,11 @@ layout: page
 show_meta: false
 title: "Тест"
 subheadline: "ПРОБА!!!"
+teaser: " T-Control - эффективное управление при ЭКОНОМИИ расходов"
+header:
+   image_fullwidth: "fire-and-water-1920x800.jpg"
 permalink: "/products/test/"
+
 # Content
 
 title: "Версия"
