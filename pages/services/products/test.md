@@ -2,13 +2,14 @@
 layout: page
 show_meta: false
 title: "Тест"
+subheadline: "ПРОБА!!!"
 permalink: "/products/test/"
 # Content
-#
-subheadline: "Пробная"
+
 title: "Версия"
 teaser: "Долбаем до победы"
-categories:
+#
+# categories:
   - 
 tags:attempt
   - 
