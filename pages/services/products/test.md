@@ -23,12 +23,7 @@ permalink: "/products/test/"
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
 
-### Code to use for flexible videos
 
-{% highlight html %}
-<div class="flex-video">
-  <iframe with video />
-</div>
 {% endhighlight %}
 
 
