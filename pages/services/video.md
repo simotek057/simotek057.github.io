@@ -8,5 +8,11 @@ header:
    image_fullwidth: "camera3.jpg"
 permalink: "/services/video/"
 ---
-1. [IP камеры Hikvision]({{ site.url }}{{ site.baseurl }}/images/termo/Frico_Ave_NEW.pdf/)
+1. [IP камеры Hikvision]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-dahua/)
 1. [IP камеры Dahua]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-dahua/)
+
+
+{% endhighlight %}
+
+
+<img class="t60" src="{{ site.urlimg }}frico_ave" alt="">
