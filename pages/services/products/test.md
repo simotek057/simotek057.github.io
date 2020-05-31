@@ -8,31 +8,359 @@ header:
    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
 permalink: "/products/test/"
 ---  
-<!--more-->  
 
-## Front Matter Code 
+# Краткое руководство Markdown
 
-~~~
-header:
-    title: header with text                      
-    image_fullwidth: unsplash_brooklyn-bridge_header.jpg 
-    caption: This is a caption for the header image with link 
-    caption_url: https://unsplash.com/  
+Можно потренироваться в реальном времени на сайте [https://stackedit.io/](https://stackedit.io/app#)
 
-~~~
+# Заголовок h1
+## Заголовок h2
+### Заголовок h3
+#### Заголовок h4
+##### Заголовок h5
+###### Заголовок h6
 
-### All Header-Styles 
-{: .t60 }
+Абзац Markdown. Пример:
 
-{% include list-posts tag='header' %}
+Lorem ipsum dolor sit amet... Абзацы обрамляются пустой строкой.
 
- [1]: #
- [2]: #
- [3]: #
- [4]: #
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+Текст с жирным начертанием (**strong**) и курсив (*italic*) в Markdown:
+
+*Наклонный текст обрамляется одной звёздочкой* - или _подчёркиванием_
+
+**Жирный текст - двумя звёздочками** - или __подчёркиваниями__
+
+***Наклонный и жирный одновременно - тремя звёздочками*** - или ___подчёркиваниями___
+
+==Подсвеченный текст==
+
+~~Зачеркнутый текст~~
+
+Горизонтальная черта - просто 3 звездочки или 3 дефиса:
+
+---
+
+Маркированный список. Для разметки неупорядоченных списков `*`, `-`, `+`:
+
+- текст
+- текст
+- текст
+
+Вложенные пункты. 4 пробела перед маркером:
+
+- элемент маркированного списка
+- элемент маркированного списка
+    - вложенный текст 1
+    - вложенный текст 2
+
+Нумерованный список. Главное, чтобы перед элементом списка стояла цифра с точкой.
+
+1. элемент нумерованного списка
+2. элемент нумерованного списка
+    1. вложенный
+    2. вложенный
+
+Нумерация всегда автоматическая, поэтому можно ставить просто 1 или 0:
+
+1. текст
+1. текст
+    - пункт 1
+    - пункт 2
+1. текст
+    1. еще текст
+    1. и еще
+
+Список с абзацами:
+
+* Текст
+* Текст
+* Текст
+
+    Текст (4 пробела или `Tab`).
+
+    Продолжение текста
+
+Списки с галочками:
+
+- [ ] Снятая галочка
+- [x] Поставленная галочка
+
+
+---
+
+##### Ссылки Markdown
+
+Здесь - [ссылка с title (подсказкой)](http://example.com/ "Привет!").
+
+Здесь - [просто ссылка](http://example.com/).
+
+Можно в тексте ссылки написать её же - [http://example.com/](http://example.com/).
+
+Ссылки с разметкой как у сносок.
+
+Здесь - [ссылка][1] продолжение текста [ссылка][2] продолжение текста [ссылка][id]. [Просто ссылка][] без указания id.
+
+[1]: http://example.com/ "Пример подсказки"
+[2]: http://example.com/page
+[id]: http://example.com/links (Пример подсказки)
+[Просто ссылка]: http://example.com/short
+
+Ссылки-сноски можно располагать в любом месте документа.
+
+---
+
+##### Цитаты в Markdown - cимвол `>`.
+
+> Lorem ipsum dolor sit amet.
+> Lorem ipsum dolor sit amet.
+>
+> Lorem ipsum dolor sit amet.
+
+В цитаты можно помещать всё что угодно, в том числе вложенные цитаты:
+
+> ### Заголовок.
+>
+> 1. список
+> 2. список
+>
+> > Вложенная цитата.
+>
+> Исходный код (4 пробела в начале строки):
+>
+>     $source = file_get_contents('example.php');
+
+##### Исходный код в Markdown
+
+В GFM - поставить 3 апострофа (где `Ё`) до и после кода.
+
+```
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+```
+
+Можно указать язык исходного кода для подсветки синтаксиса.
+
+```html
+<div class="as-header">
+    <h1>Матрёшка</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+```
+
+```javascript
+    $(function() { ... });
+```
+
+Для вставки кода внутри предложений - надо обрамить в апострофы (где `Ё`).
+
+Пример: `<div class="as-markdown">`.
+
+Если внутри кода есть апостроф, то код надо обрамить двойными апострофами: ``Бла-бла (`) тут.``
+
+##### Картинки в Markdown
+
+Картинка без alt текста
+
+![](//placehold.it/200x100)
+
+Картинка с alt и title:
+
+![Alt text](//placehold.it/200x100 "Здесь title")
+
+Картинка-ссылка:
+Подсказка: синтаксис как у ссылок, только перед открывающей квадратной скобкой ставится восклицательный знак.
+
+[![Alt text](//placehold.it/200x100)](http://example.com/)
+
+Картинки-сноски:
+
+![Картинка][image1]
+![Картинка][image2]
+![Картинка][image3]
+
+[image1]: //placehold.it/200x100
+[image2]: //placehold.it/150x100
+[image3]: //placehold.it/100x100
+
+---
+
+##### Использование HTML внутри Markdown
+
+Mожно смешивать Markdown и HTML. Если на какие-то элементы нужно поставить классы или атрибуты, используем HTML:
+
+> Выделим слова без помощи * и _ . Например, это <em class="as-italic">курсив</em> и это тоже <i>курсив</i>. А вот так уже <b>strong</b>, и так тоже <strong>strong</strong>.
+
+Можно и наоборот, внутри HTML-тегов использовать Markdown.
+
+<div class="as-markdown">
+
+###### Markdown внутри HTML. Пример:
+
+Выделять слова можно при помощи `*` и `_` . Например, это _курсив_ и это тоже *italic*. А вот так уже __strong__, и так тоже **strong**.
+
+</div>
+
+---
+
+##### Таблицы
+
+Для рисования таблиц достаточно разделить текст "палками" `|` и сделать разделитель между заголовком таблицы и ячейками с помощью минусов:
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+Можно по бокам линии нарисовать:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+Можно управлять выравниванием столбцов при помощи двоеточия:
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | какой-то текст  |   **my text** |
+| col 2 is      | центр           |           $123|
+| Content Cell  | бука            |         ~~$7~~|
+
+Внутри таблиц можно использовать ссылки, наклонный, жирный или зачеркнутый текст.
+
+Можно не возиться с выравниванием колонок пробелами:
+
+Заголовок 1|Заголовок 2|Заголовок 3
+-|-|-
+раз|три четыре пять|7
+два|6|8
+
+
+---
+
+Для всего остального есть обычный HTML.
+
+---
+
+###### Links:
+
+ * <small>[markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing</small>
+ * <small>[CodeMirror](http://codemirror.net/) for the awesome syntax-highlighted editor</small>
+ * <small>[Live (Github-flavored)](https://github.com/jbt/markdown-editor) Markdown Editor</small>
+ * <small>[highlight.js](http://softwaremaniacs.org/soft/highlight/en/) for syntax highlighting in output code blocks</small>
+ * <small>[js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Headers
+---------------------------
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+
+Styling
+---------------------------
+
+*Emphasize* _emphasize_
+
+**Strong** __strong__
+
+==Marked text.==
+
+~~Mistaken text.~~
+
+> Quoted text.
+
+H~2~O is a liquid.
+
+2^10^ is 1024.
+
+
+Lists
+---------------------------
+
+- Item
+  * Item
+    + Item
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+- [ ] Incomplete item
+- [x] Complete item
+
+
+Links
+---------------------------
+
+A [link](http://example.com).
+
+An image: ![Alt](img.jpg)
+
+A sized image: ![Alt](img.jpg =60x50)
+
+
+Code
+---------------------------
+
+Some `inline code`.
+
+```
+// A code block
+var foo = 'bar';
+```
+
+```javascript
+// An highlighted block
+var foo = 'bar';
+```
+
+
+Tables
+---------------------------
+
+Item     | Value
+-------- | -----
+Computer | $1600
+Phone    | $12
+Pipe     | $1
+
+
+| Column 1 | Column 2      |
+|:--------:| -------------:|
+| centered | right-aligned |
+
+
+Definition lists
+---------------------------
+
+Markdown
+:  Text-to-HTML conversion tool
+
+Authors
+:  John
+:  Luke
+
+
+Footnotes
+---------------------------
+
+Some text with a footnote.[^1]
+
+[^1]: The footnote.
