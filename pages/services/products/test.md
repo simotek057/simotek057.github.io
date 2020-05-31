@@ -24,10 +24,10 @@ permalink: "/products/test/"
 
 ~~~
 header:
-    title: header with text                      <!--Заголовок : "Заголовок с текстом" на фоне рисунка-->
-    image_fullwidth: unsplash_brooklyn-bridge_header.jpg  <!--Рисунок из Images на всю ширину-->
-    caption: This is a caption for the header image with link  <!--Надпись на фоне рисунка-->
-    caption_url: https://unsplash.com/  <!--Ссылка на сайт бесплатных рисуков и фото-->
+    title: header with text                      
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg 
+    caption: This is a caption for the header image with link 
+    caption_url: https://unsplash.com/  
 
 ~~~
 
