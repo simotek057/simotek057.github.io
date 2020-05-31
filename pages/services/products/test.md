@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "Header With Text"  <!--Заголовок : "Заголовок с текстом" -->
-subheadline: "Headers With Style"  <!--Заголовок : "Заголовок со стилем" над title-->
+title: "Header With Text"
+subheadline: "Headers With Style"
 teaser: "Feeling Responsive allows you to use all kinds of headers. This header is with text."
 header:
    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
