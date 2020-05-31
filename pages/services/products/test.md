@@ -9,12 +9,12 @@ tags:
     - design
     - background color
     - header
-header:
-    title: header with text        
-    background-color: "#EFC94C;"      
-#    pattern: pattern_concrete.jpg   
-    image_fullwidth: unsplash_brooklyn-bridge_header.jpg  
-    caption: This is a caption for the header image with link 
+ header:
+    title: header with text
+    background-color: "#EFC94C;"
+    pattern: pattern_concrete.jpg
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 permalink: "/products/test/"
 ---  
