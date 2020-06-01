@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 title: "Устройство автоматического управления термозавесой"
-teaser: "T-Control - эффективное управление при ЭКОНОМИИ расходов"
 subheadline: "Совместимо с большинством типов термозавес!!!"
+teaser: "T-Control - эффективное управление при ЭКОНОМИИ расходов"
 permalink: "/services/own-workings-out/"
 header:
    image_fullwidth: "T-control_AVE1.jpg"
