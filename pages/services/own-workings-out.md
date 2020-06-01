@@ -1,7 +1,8 @@
 ---
 layout: page-fullwidth
-title: "Продукция"
-teaser: "The documentation is a work in progress..."
+title: "Устройство автоматического управления термозавесой"
+teaser: "T-Control - эффективное управление при ЭКОНОМИИ расходов"
+subheadline: "Совместимо с большинством типов термозавес!!!"
 permalink: "/services/own-workings-out/"
 header:
    image_fullwidth: "T-control_AVE1.jpg"
