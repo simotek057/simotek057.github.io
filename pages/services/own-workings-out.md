@@ -22,11 +22,11 @@ header:
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
 
-## Новый заголовок
-subheadline: "СРОЧНО"
-Не упустите возможность купить у нас все! и сразу!
-image:
-    title: test.jpg
+##  Устройство “T-control”
+
+subheadline: "Руководство пользователя"
+<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
+
     
 
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
