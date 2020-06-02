@@ -25,7 +25,7 @@ header:
 ##  Устройство “T-control”
 
 Руководство пользователя
-<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
+<img class="t60" src="{{ site.urlimg }}termo/t_ave1_970.jpg" alt="">
 
     
 
