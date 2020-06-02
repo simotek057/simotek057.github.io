@@ -24,7 +24,7 @@ header:
 
 ##  Устройство “T-control”
 
-subheadline: "Руководство пользователя"
+Руководство пользователя
 <img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
 
     
