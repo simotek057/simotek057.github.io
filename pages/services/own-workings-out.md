@@ -79,7 +79,7 @@ header:
 •   Комплект беспроводного датчика открытия двери;
 •   Радиодатчик движения
 
-### Page/Post
+##  Внешний вид и органы управления устройства
 The [page/post format]({{ site.url }}{{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
 use in front matter via: `layout: page`
