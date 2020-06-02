@@ -80,9 +80,10 @@ header:
 •   Радиодатчик движения
 
 ##  Внешний вид и органы управления устройства
-The [page/post format]({{ site.url }}{{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+<!--The [page/post format]({{ site.url }}{{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
-use in front matter via: `layout: page`
+use in front matter via: `layout: page`-->
+<img class="t60" src="{{ site.urlimg }}termo/t_adjust.jpg" alt="">
 
 ### Page/Post with a left or right sidebar
 If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.
