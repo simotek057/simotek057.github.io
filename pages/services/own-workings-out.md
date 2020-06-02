@@ -19,12 +19,13 @@ header:
 
 
 
-<!--<div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include _improve_content.html %}-->
+<div class="medium-8 medium-pull-4 columns" markdown="1">
+{% include _improve_content.html %}
 
 ##  Устройство “T-control”
-    "Руководство пользователя"
-<img class="t60" src="{{ site.urlimg }}termo/T-AVE_Vid.jpg" alt="">
+
+subheadline: "Руководство пользователя"
+<img class="t60" src="{{ site.urlimg }}header_homepage_13.jpg" alt="">
 
     
 
