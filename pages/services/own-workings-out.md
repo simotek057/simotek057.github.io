@@ -23,8 +23,8 @@ header:
 {% include _improve_content.html %}-->
 
 ##  Устройство “T-control”
-Руководство пользователя
-<img class="t60" src="{{ site.urlimg }}termo/T-AVE_1.jpg" alt="">
+    "Руководство пользователя"
+<img class="t60" src="{{ site.urlimg }}termo/T-AVE_Vid.jpg" alt="">
 
     
 
