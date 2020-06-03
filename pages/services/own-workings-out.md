@@ -117,7 +117,7 @@ use in front matter via: `layout: frontpage`-->
 части дверной облицовки. Магнитная метка – на подвижной части
 двери, напротив датчика (при закрытом состоянии двери)
 
-<img class="t60" src="{{ site.urlimg }}termo/T_door_sensor_970.jpg" alt="">
+<img class="t60" src="{{ site.urlimg }}termo/t_door_sensor_970.jpg" alt="">
 
 ## Органы управления "T-control"
 На левой боковой стороне корпуса расположен выключатель питания устройства со встроенным светодиодом.
