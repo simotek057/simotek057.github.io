@@ -84,26 +84,29 @@ header:
 use in front matter via: `layout: page`-->
 <img class="t60" src="{{ site.urlimg }}termo/T_adjust.jpg" alt="">
 
-### Page/Post with a left or right sidebar
-If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.
+##  Схема подключения “T-control” к тепловой завесе FRICO AD200E
+<!--Page/Post with a left or right sidebar
+If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.-->
+<img class="t60" src="{{ site.urlimg }}termo/T_sheme_AVE.png" alt="">
+
+### Подключение платы устройства к термозавесе
+<!--Page/Post with or without metadata
+If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `_config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.-->
+<img class="t60" src="{{ site.urlimg }}termo/T_plate_970.jpg" alt="">
 
 
-### Page/Post with or without metadata
-If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `_config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
-
-
-
-### Page Full Width
+##  Опциональные элементы к устройству “T-control”: 
+<!--Page Full Width
 If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}{{ site.baseurl }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+use in front matter via: `layout: page-fullwidth`-->
 
-use in front matter via: `layout: page-fullwidth`
 
-
-### Frontpage
+### ИК пульт дистанционного управления
+<!--Frontpage
 This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}{{ site.baseurl }}) of this website.
 
-use in front matter via: `layout: frontpage`
-
+use in front matter via: `layout: frontpage`-->
+<img class="t60" src="{{ site.urlimg }}termo/T_plate_970.jpg" alt="">
 
 ### Video
 If you're a video producer or cineast, you'll like the [video template]({{ site.url }}{{ site.baseurl }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
