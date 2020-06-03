@@ -106,18 +106,15 @@ use in front matter via: `layout: page-fullwidth`-->
 This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}{{ site.baseurl }}) of this website.
 
 use in front matter via: `layout: frontpage`-->
-<img class="t60" src="{{ site.urlimg }}termo/T_plate_970.jpg" alt="">
+Внимание! Кнопка включения/выключения пульта управления и кнопки
+выбора активны и управляют работой “T-control” (и завесы) только 
+при ВКЛЮЧЕННОМ положении выключателя питания на корпусе “T-control”.
 
-### Video
-If you're a video producer or cineast, you'll like the [video template]({{ site.url }}{{ site.baseurl }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
+<img class="t60" src="{{ site.urlimg }}termo/t_pult_970.jpg" alt="">
 
-use in front matter via: `layout: video`
+### Беспроводный датчик положения двери
 
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-
-
+<img class="t60" src="{{ site.urlimg }}termo/T_door_sensor_970.jpg" alt="">
 
 ## Style your content with   {#styling}
 
