@@ -218,27 +218,26 @@ use in front matter via: `layout: frontpage`-->
 **Внимание: если нет реакции завесы на сигнал датчика положения двери, проверьте и замените 
 батарею питания датчика.**
 
-## Comments
+## Дополнительные возможности
+Устройство “T-control” может работать с другими типами радиодатчиков частотой 433МГц, 
+например, датчиками движения. Для подключения нештатного датчика к устройству “T-control”
+необходимо:
+* Выключить питание устройства “T-control”  тумблером на боковой стенке.
+* Одновременно нажать две средние кнопки установки температур на передней панели.
+* Включить тумблер. Удерживать кнопки до появления мерцающего свечения синего светодиода. Отпустить кнопки.
+* Вызвать срабатывание регистрируемого  радиодатчика. Синий индикаторный светодиод переходит в режим постоянного свечения.
+* Повторно вызвать срабатывание радиодатчика и убедиться в включении режима обдува
 
-You can use comments with *Feeling Responsive* by the way of Disqus. If you want to use Disqus-Comments just open `config.yml` and add your `disqus_shortname`. [More on how to use Disqus ›](https://disqus.com/websites/)
+## Иллюстрация режимов работы термозавесы под управлением "T-Control"
 
-By default comments are turned off. You can customize the default behaviour in `config.yml`. To **turn on comments** just add `comments: true` to front matter using the page layout `layout: page`. 
-
-<small markdown="1">[Up to table of contents](#toc)</small>
-{: .text-right }
-
-
-
-
-## Responsive Videos
-
-With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
+<!--With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
 
 <div class="flex-video">
         <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
-</div>
+</div>-->
+<img class="t60" src="{{ site.urlimg }}termo/TERMO_CLIP.gif" alt="">
 
-### Code to use for flexible videos
+<!--### Code to use for flexible videos
 
 {% highlight html %}
 <div class="flex-video">
@@ -442,7 +441,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 /foundation/js/jquery.backstretch.js'
 ~~~
 
-{% include _improve_content.html %}
+{% include _improve_content.html %}-->
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
