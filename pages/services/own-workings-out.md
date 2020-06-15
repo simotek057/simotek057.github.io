@@ -87,7 +87,7 @@ header:
 ##  Внешний вид и органы управления устройства
 <!--The [page/post format]({{ site.url }}{{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 use in front matter via: `layout: page`-->
-<img class="t60" src="{{ site.urlimg }}termo/T_adjust.jpg" alt="">
+<img class="t60" src="{{ site.urlimg }}termo/t_ave_970.jpg" alt="">
 
 ##  Схема подключения “T-control” к тепловой завесе FRICO AD200E
 <!--Page/Post with a left or right sidebar
@@ -125,6 +125,7 @@ use in front matter via: `layout: frontpage`-->
 <img class="t60" src="{{ site.urlimg }}termo/t_door_sensor_970.jpg" alt="">
 
 ## Органы управления "T-control"
+<img class="t60" src="{{ site.urlimg }}termo/T_adjust.jpg" alt="">
 На левой боковой стороне корпуса расположен выключатель питания устройства со встроенным светодиодом.
 
 На передней панели корпуса устройства расположен шестиэлементный индикатор
