@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: "Устройство автоматического управления термозавесой"
 subheadline: "Совместимо с большинством типов термозавес!!!"
 teaser: "T-Control - эффективное управление при ЭКОНОМИИ расходов"
-permalink: "/services/own-workings-out/"
+permalink: "/services/products/t-control"
 header:
    image_fullwidth: "T-control_AVE1.jpg"
 ---
