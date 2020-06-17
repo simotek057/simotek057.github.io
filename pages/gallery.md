@@ -7,14 +7,14 @@ header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/gallery/"
 gallery:
-    - image_url: camera1.jpg
-      caption: Sample image camera1.jpg
-    - image_url: camera2.jpg
-      caption: Sample image camera2.jpg
-    - image_url: camera3.jpg
-      caption: Sample image camera3.jpg
-    - image_url: leakage/maket.jpg
-      caption: Модуль контроля протечки
+    - image_url: leakage/plug1.jpg
+      caption: Leakage mobile
+    - image_url: leakage/plug2.jpg
+      caption: Leakage mobile dimentions 
+    - image_url: leakage/plug5.jpg
+      caption: Leakage mobile definition
+    - image_url: leakage/plug4.jpg
+      caption: Leakage mobile installation
     - image_url: leakage/prospect4.jpg
       caption: Контроль протечки
     - image_url: termo/TERMO_CLIP.gif
