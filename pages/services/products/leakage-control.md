@@ -5,9 +5,9 @@ title: "Контроль протечек"
 subheadline: "Информация о 'Leakage Control'"
 teaser: "Устройство 'Leakage Control' - надежный защитник при прорывах водопроводных труб и затоплениях"
 header:
-    image_fullwidth: "leakage/maket.jpg"
+   image_fullwidth: "leakage/maket.jpg"
 permalink: "/products/leakage-control/"
-    gallery:    
+gallery:
     - image_url: leakage/plug1.jpg
       caption: Leakage mobile
     - image_url: leakage/plug2.jpg
@@ -15,7 +15,7 @@ permalink: "/products/leakage-control/"
     - image_url: leakage/plug5.jpg
       caption: Leakage mobile definition
     - image_url: leakage/plug4.jpg
-      caption: Leakage mobile installation
+      caption: Leakage mobile installation     
 ---
 
 {% include gallery %}
