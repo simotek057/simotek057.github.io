@@ -7,6 +7,23 @@ teaser: "Устройство 'Leakage Control' - надежный защитн�
 header:
    image_fullwidth: "leakage/maket.jpg"
 permalink: "/products/leakage-control/"
+gallery:
+    - image_url: camera1.jpg
+      caption: Sample image camera1.jpg
+    - image_url: camera2.jpg
+      caption: Sample image camera2.jpg
+    - image_url: camera3.jpg
+      caption: Sample image camera3.jpg
+    - image_url: leakage/maket.jpg
+      caption: Модуль контроля протечки
+    - image_url: leakage/prospect4.jpg
+      caption: Контроль протечки
+    - image_url: termo/TERMO_CLIP.gif
+      caption: Термозавеса анимация
+    - image_url: svarka/svarka_complect2.jpg
+      caption: Сварочный комплект
+    - image_url: T-control_AVE1.jpg
+      caption: Устройство T-control
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.
