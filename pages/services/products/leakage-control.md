@@ -11,11 +11,11 @@ gallery:
     - image_url: leakage/plug1.jpg
       caption: Leakage mobile
     - image_url: leakage/plug2.jpg
-      caption: Leakage mobile dimentions 
+      caption: Leakage mobile dimentions
     - image_url: leakage/plug5.jpg
       caption: Leakage mobile definition
     - image_url: leakage/plug4.jpg
-      caption: Leakage mobile installation     
+      caption: Leakage mobile installation       
 ---
 
 {% include gallery %}
